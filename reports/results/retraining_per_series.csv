@@ -1,0 +1,7 @@
+series,model,test_rows,test_anomalies,event_windows,detected_windows,partial_windows,event_recall,TP,FP,FN,TN,precision,recall,f1,false_positive_rate
+ec2_cpu_utilization_825cc2.csv,Static IF,804,0,0,0,0,,0,0,0,804,,,,0.0
+ec2_cpu_utilization_825cc2.csv,Adaptive IF,804,0,0,0,0,,0,68,0,736,0.0,,0.0,0.0845771144278607
+ec2_network_in_257a54.csv,Static IF,804,0,0,0,0,,0,1,0,803,0.0,,0.0,0.0012437810945273632
+ec2_network_in_257a54.csv,Adaptive IF,804,0,0,0,0,,0,65,0,739,0.0,,0.0,0.08084577114427861
+elb_request_count_8c0756.csv,Static IF,804,201,1,1,0,1.0,20,5,181,598,0.8,0.09950248756218906,0.17699115044247787,0.008291873963515755
+elb_request_count_8c0756.csv,Adaptive IF,804,201,1,1,0,1.0,24,34,177,569,0.41379310344827586,0.11940298507462686,0.18532818532818532,0.05638474295190713

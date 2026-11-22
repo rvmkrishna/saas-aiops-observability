@@ -1,0 +1,4 @@
+PASS day3: annotations, source values, splits, per-series and aggregate metrics
+PASS day5: annotations, source values, splits, per-series and aggregate metrics
+PASS supervised extension: labels, raw values, confusion counts, metrics, CV winner and grid size
+PASS four notebooks contain explanatory text and executed code with no saved errors

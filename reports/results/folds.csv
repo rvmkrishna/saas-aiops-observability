@@ -1,0 +1,3 @@
+fold,train_rows,validation_rows,train_positives,validation_positives,train_end,validation_start,validation_end
+1,9193,9231,804,874,2014-02-25 06:47:00,2014-02-25 07:50:00,2014-04-12 19:29:00
+2,18424,9228,1666,1022,2014-04-12 18:29:00,2014-04-12 19:34:00,2014-04-23 12:04:00

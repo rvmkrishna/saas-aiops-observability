@@ -1,0 +1,3 @@
+model,configurations,mean_cv_f1,fold_1_f1,fold_2_f1,best_parameters
+Logistic regression,6,0.09642858146043665,0.04490664145592058,0.14795052146495272,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}"
+Random forest,4,0.14181305774625266,0.10603626348404865,0.17758985200845667,"{""model__max_depth"": 8, ""model__min_samples_leaf"": 5}"
