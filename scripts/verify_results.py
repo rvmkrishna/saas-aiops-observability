@@ -84,7 +84,7 @@ for path in (ROOT/'notebooks').glob('*.ipynb'):
         if cell['cell_type']=='code':
             assert cell['execution_count'] is not None, path.name
             assert all(o.get('output_type')!='error' for o in cell.get('outputs',[])), path.name
-messages.append('PASS four notebooks contain explanatory text and executed code with no saved errors')
+messages.append('PASS all submission notebooks contain explanatory text and executed code with no saved errors')
 report = ROOT/'reports/verification.txt'
 report.parent.mkdir(exist_ok=True)
 report.write_text('\n'.join(messages)+'\n', encoding='utf-8')

@@ -8,6 +8,17 @@ Can machine learning help an operations team notice unusual service behavior wit
 
 **OpenTelemetry was not deployed.** This is an offline study of downloaded historical metrics. Live metrics/logs/traces, incident correlation, AI-generated explanations and remediation remain proposed extensions.
 
+## Capstone milestone submissions
+
+| Part and module | Submission artifact |
+|---|---|
+| Part 1 — Module 11 prospectus | [Problem statement and prospectus](milestones/module_11_prospectus.md) |
+| Part 1 — Assignment 16.1 | [Formal proposal: question, data, expected results and techniques](milestones/module_16_proposal.md) |
+| Part 1 — Assignment 20.1 | [Self-contained initial report and EDA notebook](notebooks/20_initial_report_and_eda.ipynb) |
+| Part 2 — Module 24 | This final README and the technical notebooks below |
+
+Part 1 artifacts consolidate the completed project for milestone submission. Expected outcomes in the proposal are distinguished from measured results. No earlier submission, grade or program-leader meeting is claimed. Each assignment must still be submitted in its own course entry.
+
 ## Read the analysis
 
 | Notebook | Purpose |
@@ -182,7 +193,7 @@ Run all notebook cells in order **01 → 02 → 05 → 06**, then:
 
 Raw files and observation-level outputs are generated under `data/` and excluded from Git. Small result tables, figures and executed notebooks are included for review. [Verification record](reports/verification.txt) · [Tested environment](reports/environment.txt)
 
-All four notebooks were executed from fresh kernels on 22 November 2026. Independent checks matched predictions to local raw values and annotations, recalculated metrics, checked original time splits and verified the supervised selection. Original results were preserved. These checks do not establish upstream source authenticity or remove retrospective bias.
+All four primary notebooks and the standalone Module 20 notebook were executed from fresh kernels on 22 November 2026. Independent checks matched predictions to local raw values and annotations, recalculated metrics, checked original time splits and verified the supervised selection. Original results were preserved. These checks do not establish upstream source authenticity or remove retrospective bias.
 
 ## Sources
 
